@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin:0px;
+        }
+        div
+        {
+            background-color:blue;
+            text-align:center;
+            padding:20px;
+            color:white;
+        }
+        div>span
+        {
+           font-size:30px;
+           font-weight:bold;
+           margin:20px;
+        }
+        div>button
+        {
+           padding:10px 15px;
+           font-size:15px;
+        }
+        div>button:hover 
+        {
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button id="dec-btn">Dec</button>
+        <span id="display">Count</span>
+        <button id="inc-btn">Inc</button>
+    </div>
+
+<!-- Script Code -->
+ <script>
+    let countDisplay=document.getElementById('display');
+    let incBtn=document.getElementById('inc-btn');
+    let decBtn=document.getElementById('dec-btn');
+
+    let count=0;
+    countDisplay.textContent=count;
+
+    function incCount()
+    {
+        count++;
+        countDisplay.textContent=count;
+    }
+
+    function decCount()
+    {
+        if(count>1)
+        {
+            count--;
+            countDisplay.textContent=count;
+        }
+        else countDisplay.textContent=1;
+    }
+
+    incBtn.addEventListener('click',incCount);
+    decBtn.addEventListener('click',decCount);
+ </script>
+</body>
+</html>

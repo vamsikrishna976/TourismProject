@@ -1,0 +1,107 @@
+.bg-container{
+    background-image: url("https://res.cloudinary.com/dfvzwauuq/image/upload/v1724734665/flleh60cth33ss7oz0ah.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.tourism-card{
+    text-align: center;
+    background-color: white;
+    height: 250px;
+    width: cover;
+    font-size: 25px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    padding: 20px;
+}
+
+.button{
+    height: 40px;
+    width: 150px;
+    border-radius: 7px;
+    color: azure;
+    background-color: black;
+    padding: 1px;
+}
+
+
+
+
+.favourite-places-bg-container{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.favourite-places-bg-heading{
+    font-style: normal;
+    color: rgb(238, 229, 229);
+    font-size: 30px;
+    font-weight: Bold;
+    padding: 30px;
+    text-align:center;
+    
+}
+
+.favourite-place-card-container{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.favourite-places-card-heading{
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    padding: 18px;
+}
+.favourite-place-card-discription{
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    padding: 18px;
+
+}
+
+.favourite-place-card-image{
+    height: 160px;
+    width: 110px;
+    padding: 15px;
+}
+
+
+.detailed_tourism_background_container{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.detailed_tourism_heading{
+    font-style: normal;
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+}
+
+.detailed_tourism_card_container{
+    background-color: aliceblue;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 10px;
+}
+
+.detailed_text_card_container{
+    font-style: normal;
+    color: rgb(58, 54, 54);
+    padding: 15px;
+
+}
+
+.detailed_paragraph_card_container{
+    font-style: normal;
+    font-size: 15px;
+     padding: 13px;
+}
+
+

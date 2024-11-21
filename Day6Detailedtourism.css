@@ -1,0 +1,35 @@
+.detailed_tourism_background_container{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.detailed_tourism_heading{
+    font-style:normal ;
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+}
+
+.detailed_tourism_card_container{
+    background-color: aliceblue;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 10px;
+}
+
+.detailed_text_card_container{
+    font-style: normal;
+    color: rgb(58, 54, 54);
+    padding: 15px;
+
+}
+
+.detailed_paragraph_card_container{
+    font-style: normal;
+    font-size: 15px;
+     padding: 13px;
+}
+
+
